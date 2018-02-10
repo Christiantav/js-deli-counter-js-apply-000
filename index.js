@@ -14,7 +14,7 @@ function takeANumber(line,name) {
   return `Welcome, ${name}. You are number ${line.length} in line.` //simple interpolation ${}
 }
 
-function nowServing(line) {
+function nowServing(person) {
   if(line.length === 0) {
     return `There is nobody waiting to be served!`
   }
