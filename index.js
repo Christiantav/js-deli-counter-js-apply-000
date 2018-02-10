@@ -9,7 +9,7 @@ function currentLine(line) {
     return `The line is currently:${lineOfPeople}`;
   }
 
-function takeANumber(line,name) {
+function takeANumber(katzline,name) {
   line.push(name);                                                   //push puts the parameter name at the end of parameter line
   return `Welcome, ${name}. You are number ${line.length} in line.` //simple interpolation ${}
 }
